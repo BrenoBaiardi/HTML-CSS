@@ -172,8 +172,8 @@ td, th {
 
 .principal{
 	padding: 3em 0;
-  background: #FEFEFE;
-  width: 940px;
+	background: #FEFEFE;
+	width: 940px;
 	margin: 0 auto;
 }
 
@@ -240,8 +240,14 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	transition: 400ms;
+	opacity: 1;
+	box-shadow: 10px 10px 10px 0 #000000;
 }
 
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
 
 .video{
 	width: 560px;
