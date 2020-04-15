@@ -197,7 +197,7 @@ td, th {
 
 .mapa{
 	padding: 3em 0;
-  background: linear-gradient(#FEFEFE,#888888);
+	background: linear-gradient(#FEFEFE,#888888);
 }
 
 .mapa-conteudo{
@@ -256,19 +256,35 @@ td, th {
 
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo {
         width: auto;
     }
+	.caixa{
+		align:center;
+	}
+	
+	.principal, .beneficios, .mapa{
+		padding: 2em 0
+	}
+	
+	.video{
+	    width: 95%;
+	}
 
     h1 {
         text-align: center;
     }
 
     nav {
+		align:center;
         position: static;
     }
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+	
+	.lista-beneficios{
+		margin: 0 0 10px 10px;
+	}
 }
