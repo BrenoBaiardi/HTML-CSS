@@ -256,7 +256,7 @@ td, th {
 
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .produtos {
         width: auto;
     }
 	.caixa{
@@ -286,5 +286,20 @@ td, th {
 	
 	.lista-beneficios{
 		margin: 0 0 10px 10px;
+	}
+	
+	.produtos ul{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.produtos li{
+		display: inline-block;
+		width: 80%;
+		margin: 5% 10% 5% 10%;
+	}
+	.produtos li img{
+		display: inline-block;
+		width: 90%;
 	}
 }
